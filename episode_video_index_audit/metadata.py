@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Détecter les épisodes rattachés au mauvais fichier vidéo', 'en': 'Detect episodes assigned to the wrong video file', 'es': 'Detectar episodios asignados al archivo de vídeo incorrecto'}

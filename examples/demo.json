@@ -1,0 +1,24 @@
+{
+  "videos": [
+    {
+      "id": "short",
+      "duration": 2,
+      "frames": 60
+    },
+    {
+      "id": "long",
+      "duration": 10,
+      "frames": 300
+    }
+  ],
+  "episodes": [
+    {
+      "id": "e1",
+      "video_id": "short",
+      "from_time": 3,
+      "to_time": 5,
+      "frame_from": 90,
+      "frame_to": 150
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "episode-video-index-audit"
+version = "0.1.0a1"
+description = "FR: Détecter les épisodes rattachés au mauvais fichier vidéo | EN: Detect episodes assigned to the wrong video file | ES: Detectar episodios asignados al archivo de vídeo incorrecto"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+episode-video-index-audit = "episode_video_index_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["episode_video_index_audit*"]
